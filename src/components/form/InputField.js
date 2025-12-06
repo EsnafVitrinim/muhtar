@@ -14,7 +14,7 @@ const InputField = ({ ...props }) => {
       classNames={{
         label: "text-xs text-navy-700 dark:text-dark-50 pb-1 w-[90px] text-left !ps-0 !pe-0",
         input: [
-          "!w-full bg-transparent text-xs",
+          "!w-full bg-transparent sm:text-xs text-base",
           "!text-slate-900 dark:!text-dark-50",
           "placeholder:text-xs placeholder:text-slate-400 dark:placeholder:text-dark-100",
         ],
