@@ -8,7 +8,7 @@ import { useSelector } from "react-redux";
 import SELECTORS from "@/store/selectors";
 import Loading from "@/components/loading";
 
-// to deploy
+// to deploy.
 
 export default function Home() {
   const isLoading = useSelector(SELECTORS.getNotificationsLoading);
