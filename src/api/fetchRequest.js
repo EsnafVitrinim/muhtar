@@ -4,7 +4,8 @@ export const fetchRequest = async (endpoint, method = 'GET', body = null) => {
   const config = {
     method,
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      Origin: "https://secim.aynala.com",
     },
   };
 
